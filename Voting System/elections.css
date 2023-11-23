@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: absolute;
+    width: 1508.20px;
+    height: 90.03px;
+    left: -13.34px;
+    top: 0px;
+    background: #6385DC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    left: 14px;
+    width: 210.06px;
+    height: 43.35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26.6742px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: 20.01px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.sign-out-btn {
+    position: absolute;
+    left: 1350px;
+    width: 90px;
+    height: 23.34px;
+    background: #FF6F6F;
+    border-radius: 6.66854px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 20px;
+    text-decoration: none; 
+}
+
+.profile-picture {
+    position: absolute;
+    left: 1300px;
+    width: 40.01px;
+    height: 40.01px;
+    background: #D9D9D9;
+    border-radius: 50%;
+}
+
+.welcome-text {
+    position: absolute;
+    left: 1180px;
+    width: 126.7px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.3371px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.footer {
+    position: absolute;
+    width: 1495px;
+    height: 45px;
+    left: 0px;
+    top: 686.86px;
+    background: #D9D9D9;
+}
+
+.vote-btn {
+    position: absolute;
+    width: 293.42px;
+    height: 93.36px;
+    left: 595px;
+    top: 313.42px;
+    background: #6385DC;
+    border-radius: 100.028px;
+    color: #FFFFFF;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.vote-btn {
+    position: absolute;
+    width: 293.42px;
+    height: 93.36px;
+    left: 595px;
+    top: 313.42px;
+    background: #6385DC;
+    border-radius: 100.028px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.vote-btn {
+    position: absolute;
+    width: 293.42px;
+    height: 93.36px;
+    left: 595.45px;
+    top: 313.42px;
+    background: #6385DC;
+    border-radius: 100.028px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36.677px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+.election-text {
+    position: absolute;
+    width: 320.09px;
+    height: 43.35px;
+    left: 647px;
+    top: 120.03px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 33.3427px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6385DC;
+}
+
+
+
+

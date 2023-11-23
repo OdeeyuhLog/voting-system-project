@@ -1,0 +1,190 @@
+body {
+    background: #6385DC;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    color: #fff;
+}
+
+.form .input-box input {
+    background: #fff;
+    border-radius: 7px;
+    height: 35px;
+}
+
+.form {
+    display: flex;
+    column-gap: 15px;
+}
+
+.form .position {
+    display: flex;
+    margin-left: 70px;
+}
+
+.form .position .input-box input {
+    width: 250px;
+}
+
+.secondrow .input-box input {
+    background: #fff;
+    border-radius: 7px;
+    height: 35px;
+}
+
+.secondrow {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 15px;
+}
+
+.secondrow .political {
+    display: flex;
+    margin-left: 70px;
+}
+.secondrow .input-box-suffix input{
+    width: 95px;
+    background: #fff;
+    border-radius: 7px;
+    height: 35px;
+}
+.secondrow .input-box-dateOB input{
+    width: 300px;
+    background: #fff;
+    border-radius: 7px;
+    height: 35px;
+}
+.secondrow .input-box-sex input{
+    width: 90px;
+    background: #fff;
+    border-radius: 7px;
+    height: 35px;
+}
+
+
+
+.secondrow .political .input-box input {
+    width: 250px;
+}
+
+.thridrow {
+    display: flex;
+    margin-top: 20px; 
+    column-gap: 15px;
+}
+.thridrow .input-box input {
+    width: 250px;
+    border-radius: 7px;
+    height: 35px;
+}
+
+.thridrow .photo-label {
+    display: flex;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+    margin-left: 80px;
+}
+
+.thridrow .photo-input {
+    opacity: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+.thridrow .photo-input-label {
+    background-color: #68EDFF;
+    color: white;
+    height: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline-block;
+    
+}
+
+.thridrow .photo-input-label:hover {
+    background-color: #55ED76;
+}
+
+.thridrow .uploaded-photo {
+    width: 100px; 
+    height: 100px; 
+    background-color: #fff;
+    border-radius: 7px;
+    margin-left: 15px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thridrow .uploaded-photo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.fourthrow{
+    display: flex;
+    margin-top: 20px; 
+    column-gap: 15px;
+}
+
+.fourthrow .input-box-municipality input{
+    width: 200px;
+    border-radius: 7px;
+    height: 35px;
+}
+.fourthrow .input-box  input{
+    width: 200px;
+    border-radius: 7px;
+    height: 35px;
+}
+.fifthrow{
+    display: flex;
+    column-gap: 15px;
+    margin-top: 20px;
+}
+.fifthrow .input-box-province input{
+    width: 150px;
+    border-radius: 7px;
+    height: 35px;
+}
+.fifthrow .input-box input{
+    width: 200px;
+    border-radius: 7px;
+    height: 35px;
+}
+.fifthrow .btn-register {
+    margin-top: 20px; 
+    margin-left: 250px;
+}
+
+.fifthrow .btn-register button {
+    background-color: #66ff66; 
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.fifthrow .btn-register button:hover {
+    background-color: #00e64d; 
+}
+
+.sixthrow{
+    margin-top: 20px;
+}
+.sixthrow .input-box input {
+    width: 200px;
+    border-radius: 7px;
+    height: 35px;
+}
+
