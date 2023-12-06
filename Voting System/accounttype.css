@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    text-align: center;
+}
+
+.voting-system {
+    position: absolute;
+    width: 50vw; 
+    height: 5vh; 
+    left: 50%;
+    top: 18%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.2vw; 
+    line-height: 5vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #6385DC;
+}
+
+.square {
+    position: absolute;
+    width: 26vw; 
+    height: 40vh; 
+    top: 29vh; 
+    left: 36.7vw; 
+    background: #FCFCFC;
+    box-shadow: 0px 6.66854px 7.66882px rgba(0, 0, 0, 0.25);
+    border-radius: 13.3371px;
+    transition: transform 0.3s;
+}
+
+
+.square:hover {
+    transform: scale(1.1);
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 45vh; 
+}
+
+.register-text {
+    position: absolute;
+    width: 40vw; 
+    height: 6vh; 
+    left: calc(110% - 20vw); 
+    top: 0.1vh; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.6vw; 
+    line-height: 6vh; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6385DC;
+    margin-bottom: 1vh; 
+}
+
+.button {
+    display: inline-block;
+    margin-bottom: 1vh; 
+    width: 20vw; 
+    height: 8vh; 
+    background-color: #6385DC;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 2vw; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button:hover {
+    background-color: #556b94;
+}
+
+
+/* Styling for the voter container */
+.voter-container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Styling for the candidate container */
+.candidate-container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
