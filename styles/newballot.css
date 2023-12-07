@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90.03px;
+    background: #6385DC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 210.06px;
+    height: 43.35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26.6742px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: 20.01px;
+    margin-top: 20px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.sign-out-btn {
+    width: 90px;
+    height: 23.34px;
+    background: #FF6F6F;
+    border-radius: 6.66854px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.profile-picture {
+    width: 40.01px;
+    height: 40.01px;
+    background: #D9D9D9;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome-text {
+    width: 126.7px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.3371px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.e-ballot {
+
+    margin-right: 500px;
+    padding: 10px;
+    color: #6385DC; 
+    margin-bottom: 20px;
+}
+
+.square {
+    display: flex;
+    position: relative;
+    width: 250px; 
+    height: 250px;
+    background-color: #3498db;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+   margin-left: 15px;
+}
+
+.circle {
+    margin-bottom: 45%;
+    width: 10px; 
+    height: 10px;
+    background-color: #B2BEB5; 
+    border-radius: 50%; 
+}
+
+.candidate-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px; 
+}
+
+.image-box {
+    margin-right: 10px;
+    width: 100px; 
+    height: 100px;
+    background-color: #D9D9D9; 
+    margin-top: 10px; 
+}
+
+.squares-container {
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
+.squares-container .squaretwo{
+    display: flex;
+    position: relative;
+    width: 250px; 
+    height: 250px;
+    background-color: #3498db;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+    margin-right: 40%;
+}
+
+.squares-container .circletwo{
+    margin-bottom: 45%;
+    margin-right: 11px;
+    width: 10px; 
+    height: 10px;
+    background-color: #B2BEB5; 
+    border-radius: 50%; 
+}
+
+.squares-container .candidatetwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.squares-container .squarethree{
+    display: flex;
+    width: 250px; 
+    height: 250px;
+    background-color: #3498db;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+    margin-left: -500px;
+   
+}
+
+.squares-container .circlethree{
+    margin-bottom: 40%;
+    margin-right: 10px;
+    width: 10px; 
+    height: 10px;
+    background-color: #B2BEB5; 
+    border-radius: 50%; 
+}
+
+.btnfinish {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.btnfinish button {
+    width: 150px;
+    height: 40px;
+    background-color: #FF6F6F;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}

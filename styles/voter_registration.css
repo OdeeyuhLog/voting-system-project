@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 30px;
+    height: 700px;
+    background: #1E8BCD;
+}
+
+body {
+    padding: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    color: #fff;
+}
+
+.form .input-box input {
+    background: #fff;
+    border-radius: 7px;
+    height: 35px;
+}
+
+.form {
+    display: flex;
+    column-gap: 15px;
+}
+
+.form .position .input-box input {
+    width: 250px;
+}
+
+.secondrow .input-box input {
+    background: #fff;
+    border-radius: 7px;
+    height: 35px;
+}
+
+.secondrow {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 15px;
+}
+
+.secondrow .input-box-suffix input {
+    width: 95px;
+    background: #fff;
+    border-radius: 7px;
+    height: 35px;
+}
+
+.secondrow .input-box-dateOB input {
+    width: 300px;
+    background: #fff;
+    border-radius: 7px;
+    height: 35px;
+}
+
+.secondrow .input-box-sex input {
+    width: 90px;
+    background: #fff;
+    border-radius: 7px;
+    height: 35px;
+}
+
+
+
+.secondrow .political .input-box input {
+    width: 250px;
+}
+
+.thridrow {
+    display: flex;
+    margin-top: 20px;
+    column-gap: 15px;
+}
+
+.thridrow .input-box input {
+    width: 250px;
+    border-radius: 7px;
+    height: 35px;
+}
+
+
+.fourthrow {
+    display: flex;
+    margin-top: 20px;
+    column-gap: 15px;
+}
+
+.fourthrow .input-box-municipality input {
+    width: 200px;
+    border-radius: 7px;
+    height: 35px;
+}
+
+.fourthrow .input-box input {
+    width: 200px;
+    border-radius: 7px;
+    height: 35px;
+}
+
+.fifthrow {
+    display: flex;
+    column-gap: 15px;
+    margin-top: 20px;
+}
+
+.fifthrow .input-box-province input {
+    width: 150px;
+    border-radius: 7px;
+    height: 35px;
+}
+
+.fifthrow .input-box input {
+    width: 200px;
+    border-radius: 7px;
+    height: 35px;
+}
+
+.fifthrow .btn-register {
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+.fifthrow .btn-register button {
+    background-color: #66ff66;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+.sixthrow {
+    display: flex;
+    margin-top: 20px;
+    column-gap: 15px;
+}
+
+.sixthrow .input-box input {
+    width: 200px;
+    border-radius: 7px;
+    height: 35px;
+}
+
+.sixthrow .btn-register {
+    margin-top: 20px;
+}
+
+.sixthrow .btn-register button {
+    background-color: #66ff66;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 200px;
+    font-size: 14px;
+}
+
+.sixthrow .btn-register button:hover {
+    background-color: #00e64d;
+}
+
+.sixthrow .photo-input-label:hover {
+    background-color: #00e64d;
+}
+
+.seventhrow {
+    margin-top: 20px;
+}
+
+.secondrow .btn-register {
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+.seventhrow .btn-register button {
+    background-color: #66ff66;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 200px;
+}
