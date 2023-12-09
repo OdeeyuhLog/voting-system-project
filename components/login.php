@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" type="text/css" href="../styles/login.css">
 </head>
 
 <body>
@@ -14,7 +14,7 @@
         <div class="center">
             <div class="form-container">
                 <h1 class="voting">VOTING SYSTEM</h1>
-                <p class="description">LOGIN AS A VOTER</p>
+                <p class="description">LOGIN AS A STUDENT</p>
                 <form autocomplete="on" method="post" action="login_process.php">
                     <div class="">
                         <input class="form-input" type="text" required name="email" id="email" placeholder="E-mail">

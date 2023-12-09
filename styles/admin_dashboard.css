@@ -1,0 +1,49 @@
+*      * {
+    box-sizing: border-box;
+}
+
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 738px;
+}
+.left h2{
+    margin-bottom: 70px;
+}
+
+.left {
+    font: 1em sans-serif;
+    color: #fff;
+    padding: 20px;
+    width: 20%;
+    background-color: #3E89BF;
+}
+
+.left .links a {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 15px; 
+    display: block; 
+}
+.left .links :hover{
+    text-decoration: underline;
+}
+
+
+.right {
+    width: 80%;
+}
+
+.right h2{
+   padding: 15px;
+   margin-top: 65px;
+}
+
+  /* Clear floats after the columns */
+  /*.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }*/
+  

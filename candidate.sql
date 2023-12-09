@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 05, 2023 at 02:38 PM
+-- Generation Time: Dec 09, 2023 at 12:16 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -24,55 +24,51 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `person`
+-- Table structure for table `candidate`
 --
 
 CREATE TABLE `candidate` (
-  `person_id` int(11) NOT NULL,
-  `last_name` varchar(50) NOT NULL,
-  `first_name` varchar(50) NOT NULL,
-  `middle_name` varchar(50) DEFAULT NULL,
-  `suffix` varchar(10) DEFAULT NULL,
+  `id` int(11) NOT NULL,
+  `last_name` varchar(255) NOT NULL,
+  `first_name` varchar(255) NOT NULL,
+  `middle_name` varchar(255) NOT NULL,
+  `suffix` varchar(255) DEFAULT NULL,
   `date_of_birth` date DEFAULT NULL,
-  `sex` char(1) DEFAULT NULL,
-  `address` varchar(255) DEFAULT NULL,
-  `citizenship` varchar(50) DEFAULT NULL,
-  `municipality` varchar(50) DEFAULT NULL,
-  `city` varchar(50) DEFAULT NULL,
-  `province` varchar(50) DEFAULT NULL,
-  `mobile_number` varchar(15) DEFAULT NULL,
-  `email` varchar(100) DEFAULT NULL,
+  `sex` varchar(10) DEFAULT NULL,
+  `position` varchar(255) NOT NULL,
+  `political_party` varchar(255) NOT NULL,
+  `address` varchar(255) NOT NULL,
+  `citizenship` varchar(255) NOT NULL,
+  `municipality` varchar(255) NOT NULL,
+  `city` varchar(255) NOT NULL,
+  `province` varchar(255) NOT NULL,
+  `mobile_number` varchar(20) NOT NULL,
+  `course` varchar(255) NOT NULL,
+  `year_level` varchar(255) NOT NULL,
+  `student_number` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `person`
---
-
-INSERT INTO `candidate` (`person_id`, `last_name`, `first_name`, `middle_name`, `suffix`, `date_of_birth`, `sex`, `address`, `citizenship`, `municipality`, `city`, `province`, `mobile_number`, `email`, `password`) VALUES
-(5, 'Simpao', 'Eman', 'Abaya', 'n/a', '0000-00-00', 'M', 'lakejrkl st.', 'Filipino', 'Manila', 'Metro Manila', 'NCR', '098751751', 'emansimps@gmail.com', '$2y$10$C9bAWxiGf8ex5sK7MSySrO5zoabfPz7NNtRVUqbwtghPX8TUo/cfG'),
-(6, 'Simpao', 'Eman', 'Abaya', 'n/a', '0000-00-00', 'M', 'lakejrkl st.', 'Filipino', 'Manila', 'Metro Manila', 'NCR', '098751751', 'emansimps@gmail.com', '$2y$10$b4oNw9uE.Zr/DANDmv.P1.S2QcIFlWBGBbqNx687tD36JKl0RK5WW'),
-(10, 'test', 'test', 'test', 'n/a', '0000-00-00', 'm', 'lawkej st.', 'flilipino', 'manila', 'metro manila', 'NCR', '0913481', 'simpseman@gmail.com', '$2y$10$Lkog0s9cAltqetvgewU4b.SPZCrLezwAZHOI66q7ToHa5Vaox4v3u');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `person`
+-- Indexes for table `candidate`
 --
 ALTER TABLE `candidate`
-  ADD PRIMARY KEY (`person_id`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT for table `person`
+-- AUTO_INCREMENT for table `candidate`
 --
 ALTER TABLE `candidate`
-  MODIFY `person_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

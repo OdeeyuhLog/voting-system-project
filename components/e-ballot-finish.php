@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="e-ballot-finish.css">
+    <link rel="stylesheet" href="../styles/e-ballot-finish.css">
     <title>Voting System</title>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
@@ -48,9 +50,10 @@
 
         </div>
         <div class="btnfinish">
-                <button>FINISH VOTING</button>
-            </div>
+            <button>FINISH VOTING</button>
+        </div>
 
     </div>
 </body>
+
 </html>
