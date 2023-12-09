@@ -1,0 +1,237 @@
+*      * {
+    box-sizing: border-box;
+}
+
+.row {
+    position: absolute;
+    width: 21vw; 
+    height: 104vh; 
+    left: -1vw; 
+    top: -4vh; 
+    background: #6385DC;
+    box-shadow: 0px 0.666854vw 0.766882vw rgba(0, 0, 0, 0.25); 
+  }
+  
+.column {
+    float: left;
+    padding: 10px;
+    height: 738px;
+}
+
+.left h2{
+    margin-bottom: 90px;
+}
+
+.left {
+    font: 1em sans-serif;
+    color: #FFFFFF;
+    padding: 50px;
+}
+
+.left .links a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-bottom: 15px; 
+    display: block; 
+}
+
+.left .links :hover{
+    text-decoration: underline;
+}
+
+.welcome {
+    position: absolute;
+    width: 26.67vw; 
+    height: 5.85vh; 
+    left: 25vw; 
+    top: 14vh; 
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.70vw; 
+    line-height: 3.75vh; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #404040;
+}
+
+.rectangle {
+    position: absolute;
+    width: 47vw; 
+    height: 13vh; 
+    left: 23.33vw; 
+    top: 23vh; 
+    background: #FCFCFC;
+    box-shadow: 0px 1.11vw 1.28vw rgba(0, 0, 0, 0.25);
+    border-radius: 3.56vw; 
+}
+
+.voting-countdown-text {
+    position: absolute;
+    width: 19.17vw; 
+    height: 7.17vh; 
+    left: 7vw; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5vw; 
+    line-height: 3.67vh; 
+    display: flex;
+    align-items: center;
+    color: #404040;
+}
+
+.clock-image {
+    position: absolute;
+    width: 2.17vw; 
+    height: 4.33vh; 
+    left: 3.50vw; 
+    top: 4.50vh; 
+}
+
+.countdown {
+    position: absolute;
+    width: 25vw; 
+    height: 3vh; 
+    left: 26vw; 
+    top: 5.20vh; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw; 
+    line-height: 3vh; 
+    display: flex;
+    align-items: center;
+    color: #6385DC;
+}
+
+
+.rectangle-5 {
+    position: absolute;
+    width: 18vw; 
+    height: 35vh; 
+    left: 26vw; 
+    top: 46vh; 
+    background: #FCFCFC;
+    box-shadow: 0px 0.8898vw 1.0221vw rgba(0, 0, 0, 0.25); 
+    border-radius: 3.5568vw; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+}
+
+.user-count {
+    width: 16.75vw; 
+    height: 7vh; 
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.40vw; 
+    line-height: 4vw; 
+    text-align: center;
+    color: #404040;
+}
+.number-200 {
+    width: 9.4667vw; 
+    height: 7.1667vh; 
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.3333vw; 
+    line-height: 5.50vw; 
+    text-align: center;
+    color: #6385DC;
+}
+
+.rectangle-4 {
+    position: absolute;
+    width: 21vw; 
+    height: 35vh; 
+    left: 46.60vw; 
+    top: 46vh; 
+    background: #FCFCFC;
+    box-shadow: 0px 0.8898vw 1.0221vw rgba(0, 0, 0, 0.25); 
+    border-radius: 3.5568vw; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+}
+
+.candidates-count {
+    width: 16.75vw; 
+    height: 7.1667vh; 
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.27vw; 
+    line-height: 4vw; 
+    text-align: center;
+    color: #404040;
+}
+
+.number-33 {
+    width: 9.4667vw; 
+    height: 7.1667vh; 
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.3333vw; 
+    line-height: 1vh; 
+    text-align: center;
+    color: #6385DC;
+}
+
+.rectangle-6 {
+    position: absolute;
+    width: 18vw; 
+    height: 35vh; 
+    left: 70.10vw; 
+    top: 46vh; 
+    background: #FCFCFC;
+    box-shadow: 0px 0.8898vw 1.0221vw rgba(0, 0, 0, 0.25); 
+    border-radius: 3.5568vw; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+}
+
+.voted-vs-unvoted {
+    width: 16.75vw; 
+    height: 6vh; 
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25vw; 
+    line-height: 4vw; 
+    text-align: center;
+    color: #404040;
+}
+
+.circle-image {
+    width: 10vw; 
+    height: 9vw; 
+}
+
+.sign-out-btn {
+    position: absolute;
+    left: 91vw; /* 1350px in a standard 1920px width screen is approximately 20vw */
+    width: 6vw; /* 90px in a standard 1920px width screen is approximately 4.6875vw */
+    height: 3vh; /* 23.34px in a standard 1080px height screen is approximately 2.334vh */
+    background: #FF6F6F;
+    border-radius: 1.3342vw; /* 6.66854px in a standard 1920px width screen is approximately 1.3342vw */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 1vw; /* 20px in a standard 1920px width screen is approximately 1.0417vw */
+    text-decoration: none;
+}
